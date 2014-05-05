@@ -6,16 +6,16 @@
   <string name="delete">Slet</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Nu: %s</string>
-  <string name="ApplicationPreferenceActivity_you_need_to_have_entered_your_passphrase_before_managing_keys">Du skal indtaste dit kodeord inden du kan administrerer dine nøgler</string>
+  <string name="ApplicationPreferenceActivity_you_need_to_have_entered_your_passphrase_before_managing_keys">Du skal indtaste dit kodeord inden du kan administrere dine nøgler</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Du har endnu ikke indtastet et kodeord</string>
-  <string name="ApplicationPreferencesActivity_messages_per_conversation">Beskeder pr. opkald</string>
+  <string name="ApplicationPreferencesActivity_messages_per_conversation">Beskeder pr. samtale</string>
   <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Slet alle gamle beskeder?</string>
   <string name="ApplicationPreferencesActivity_are_you_sure_you_would_like_to_immediately_trim_all_conversation_threads_to_the_s_most_recent_messages">Er du sikker på at du vil trimme ALLE samtaletråde til de sidste %s beskeder?</string>
   <string name="ApplicationPreferencesActivity_delete">Slet</string>
   <string name="ApplicationPreferencesActivity_my">Min</string>
-  <string name="ApplicationPreferencesActivity_disable_storage_encryption">Deaktiverer kryptering af lager?</string>
-  <string name="ApplicationPreferencesActivity_warning_this_will_disable_storage_encryption_for_all_messages">\n Advarsel! Dette vil deaktiverer kryptering af lager for alle beskeder og nøgler.\n Dine krypterede sessioner vil fortsætte med at fungere,\n men alle med fysisk adgang til din enhed kan få adgang til dem.\n</string>
-  <string name="ApplicationPreferencesActivity_disable">Deaktivere</string>
+  <string name="ApplicationPreferencesActivity_disable_storage_encryption">Deaktivér kryptering af lager?</string>
+  <string name="ApplicationPreferencesActivity_warning_this_will_disable_storage_encryption_for_all_messages">\n Advarsel! Dette vil deaktivere kryptering af lager for alle beskeder og nøgler.\n Dine krypterede sessioner vil fortsætte med at fungere,\n men alle med fysisk adgang til din enhed kan få adgang til dem.\n</string>
+  <string name="ApplicationPreferencesActivity_disable">Deaktiver</string>
   <!--AttachmentTypeSelectorAdapter-->
   <string name="AttachmentTypeSelectorAdapter_picture">Billede</string>
   <string name="AttachmentTypeSelectorAdapter_video">Video</string>
@@ -31,7 +31,7 @@
   <string name="ConversationItem_error_while_saving_attachment_to_sd_card">Kunne ikke gemme vedhæftning på SD-kort!</string>
   <string name="ConversationItem_success_exclamation">Fuldført!</string>
   <string name="ConversationItem_unable_to_write_to_sd_card_exclamation">Kunne ikke skrive til SD-kort!</string>
-  <string name="ConversationItem_view_secure_media_question">Vis sikret data?</string>
+  <string name="ConversationItem_view_secure_media_question">Vis sikrede data?</string>
   <string name="ConversationItem_received_and_processed_key_exchange_message">Udvekslingsnøgle er modtaget og behandlet.</string>
   <string name="ConversationItem_error_received_stale_key_exchange_message">Fejl! Modtog en gammel udvekslingsnøgle.</string>
   <!--ConversationActivity-->
@@ -40,7 +40,7 @@
   <string name="ConversationActivity_delete_thread_confirmation">Bekræft! Slet tråd</string>
   <string name="ConversationActivity_are_you_sure_that_you_want_to_permanently_delete_this_conversation_question">Vil du slette denne samtale permanent?</string>
   <string name="ConversationActivity_add_attachment">Vedhæft fil.</string>
-  <string name="ConversationActivity_select_contact_info">Vælg kontakt information</string>
+  <string name="ConversationActivity_select_contact_info">Vælg kontaktinformation</string>
   <string name="ConversationActivity_compose_message">Opret besked</string>
   <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Beklager, der opstod en fejl ved vedhæftning af fil.</string>
   <string name="ConversationActivity_sorry_the_selected_video_exceeds_message_size_restrictions">Beklager, den valgte video overskrider grænsen på beskedstørrelsen</string>
@@ -55,20 +55,20 @@
   <string name="ConversationActivity_calls_not_supported">Opkald er ikke understøttet</string>
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Din enhed understøtter ikke initieret opkald.</string>
   <string name="ConversationActivity_leave_group">Forlad gruppe?</string>
-  <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Er du sikker at du vil forlade denne gruppe?</string>
+  <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Er du sikker på at du vil forlade denne gruppe?</string>
   <!--ConversationFragment-->
   <string name="ConversationFragment_message_details">Besked detaljer</string>
   <string name="ConversationFragment_confirm_message_delete">Bekræft sletning af besked</string>
   <string name="ConversationFragment_are_you_sure_you_want_to_permanently_delete_this_message">Er du sikker på at du ønsker at slette denne besked?</string>
   <!--ConversationListAdapter-->
-  <string name="ConversationListAdapter_key_exchange_message">Udvekslingsnøgle...</string>
+  <string name="ConversationListAdapter_key_exchange_message">Nøgleudvekslingsbesked...</string>
   <!--ConversationListFragment-->
   <string name="ConversationListFragment_delete_threads_question">Slet tråde?</string>
   <string name="ConversationListFragment_are_you_sure_you_wish_to_delete_all_selected_conversation_threads">Er du sikker på at du vil slette ALLE valgte samtaletråde?</string>
   <string name="ConversationListFragment_deleting">Sletter</string>
   <string name="ConversationListFragment_deleting_selected_threads">Sletter valgte tråde</string>
   <!--ConversationListItem-->
-  <string name="ConversationListItem_key_exchange_message">Udvekslingsnøgle...</string>
+  <string name="ConversationListItem_key_exchange_message">Nøgleudvekslingsbesked...</string>
   <!--ShareActivity-->
   <!--ExportFragment-->
   <string name="ExportFragment_export_to_sd_card">Eksporter til SD-kort?</string>
@@ -87,7 +87,7 @@
   <string name="GroupCreateActivity_actionbar_title">Ny Gruppe</string>
   <string name="GroupCreateActivity_actionbar_update_title">Opdater Gruppe</string>
   <string name="GroupCreateActivity_group_name_hint">Gruppenavn</string>
-  <string name="GroupCreateActivity_actionbar_mms_title">Ny MMS Gruppe</string>
+  <string name="GroupCreateActivity_actionbar_mms_title">Ny MMS-Gruppe</string>
   <string name="GroupCreateActivity_contacts_no_members">Der skal være mindst én person i gruppen!</string>
   <string name="GroupCreateActivity_contacts_invalid_number">En af medlemmerne i gruppen har et nummer der ikke kan læses. Ret nummeret eller slet kontakten, og prøv igen.</string>
   <string name="GroupCreateActivity_menu_create_title">Opret Gruppe</string>
@@ -130,7 +130,7 @@
   <string name="PromptMmsActivity_mms_settings_updated">MMS konfiguration opdateret</string>
   <string name="PromptMmsActivity_you_can_modify_these_values_from_the_textsecure_settings_menu_at_any_time_">Du kan ændre disse værdier når som helst i konfigurationsmenuen for TextSecure.</string>
   <!--ReceiveKeyActivity-->
-  <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_different">Signaturen på denne udvekslingsnøgle er ikke ens med den som du tidligere modtog fra denne\nkontakt. Det kan enten betyde, at der er nogle som prøver på at kompromitterer din kommunikation eller\nat din kontakt har installeret TextSecure på ny og dermed fået en ny udvekslingsnøgle.</string>
+  <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_different">Signaturen på denne udvekslingsnøgle er ikke ens med den som du tidligere modtog fra denne\nkontakt. Det kan enten betyde, at der er nogle som prøver på at kompromittere din kommunikation eller\nat din kontakt har installeret TextSecure på ny og dermed fået en ny udvekslingsnøgle.</string>
   <string name="ReceiveKeyActivity_you_may_wish_to_verify_this_contact">Du bør verificere\ndenne kontakt.</string>
   <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_trusted_but">Signaturen på denne udvekslingsnøgle er til at stole på, men du har deaktiveret indstillingen\n\'fuldfør udvekslingsnøgler automatisk\'.</string>
   <!--RegistrationActivity-->
@@ -150,15 +150,15 @@
   <string name="RegistrationProgressActivity_connecting">Forbinder</string>
   <string name="RegistrationProgressActivity_connecting_for_verification">Forbinder for godkendelse...</string>
   <string name="RegistrationProgressActivity_network_error">Netværksfejl!</string>
-  <string name="RegistrationProgressActivity_unable_to_connect">Kunne ikke skabe forbindelse. Venligst tjek din netværks forbindelse og prøv igen.</string>
+  <string name="RegistrationProgressActivity_unable_to_connect">Kunne ikke skabe forbindelse. Tjek venligst din netværks forbindelse og prøv igen.</string>
   <string name="RegistrationProgressActivity_verification_failed">Godkendelse fejlet!</string>
-  <string name="RegistrationProgressActivity_the_verification_code_you_submitted_is_incorrect">Den godkendelses kode du indtastet er forkert. Prøv igen.</string>
+  <string name="RegistrationProgressActivity_the_verification_code_you_submitted_is_incorrect">Den godkendelseskode du indtastet er forkert. Prøv igen.</string>
   <string name="RegistrationProgressActivity_too_many_attempts">For mange forsøg</string>
   <string name="RegistrationProgressActivity_server_error">Server fejl</string>
   <string name="RegistrationProgressActivity_the_server_encountered_an_error">Serveren stødte på en fejl. Prøv igen.</string>
   <string name="RegistrationProgressActivity_registration_conflict">Registrerings-konflikt</string>
   <!--RegistrationService-->
-  <string name="RegistrationService_registration_complete">Registrering Fuldført</string>
+  <string name="RegistrationService_registration_complete">Registrering fuldført</string>
   <string name="RegistrationService_registration_error">Registreringsfejl</string>
   <!--SmsMessageRecord-->
   <string name="SmsMessageRecord_secure_session_ended">Sikker session afsluttet.</string>
@@ -209,7 +209,7 @@
   <!--MmsMessageRecord-->
   <string name="MmsMessageRecord_decrypting_mms_please_wait">Dekrypterer MMS, vent venligst...</string>
   <string name="MmsMessageRecord_bad_encrypted_mms_message">Ugyldig krypteret MMS...</string>
-  <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS kryptert for en ikke-eksisterende session...</string>
+  <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS krypteret for en ikke-eksisterende session...</string>
   <!--MmsSender-->
   <string name="MmsSender_currently_unable_to_send_your_mms_message">Det er ikke muligt at sende MMS beskeden nu.</string>
   <!--ApplicationMigrationService-->
@@ -279,7 +279,7 @@
   <string name="create_passphrase_activity__create">Opret</string>
   <!--log_submit_activity-->
   <string name="log_submit_activity__log_submit_success_title">Fuldført!</string>
-  <string name="log_submit_activity__log_got_it">Finno</string>
+  <string name="log_submit_activity__log_got_it">OK</string>
   <!--database_migration_activity-->
   <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Ønsker du at importere dine eksisterende beskeder til TextSecures krypterede database?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Den eksisterende systemdatabase vil ikke blive ændret.</string>
@@ -331,7 +331,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__add_member">Tilføj medlem</string>
   <!--review_identities-->
-  <string name="review_identities__you_don_t_currently_have_any_identity_keys_in_your_trust_database">Du har ingen ID-nøgler i din sikret database.</string>
+  <string name="review_identities__you_don_t_currently_have_any_identity_keys_in_your_trust_database">Du har ingen ID-nøgler i din sikrede database.</string>
   <!--verify_identity_activity-->
   <string name="verify_identity_activity__their_identity_they_read">Deres identitet (de læser):</string>
   <string name="verify_identity_activity__your_identity_you_read">Din identitet (du læser):</string>
@@ -349,7 +349,7 @@
   <string name="AndroidManifest__select_contacts">Vælg kontakter</string>
   <string name="AndroidManifest__select_contact">Vælg kontakt</string>
   <string name="AndroidManifest__textsecure_detected">TextSecure Detekteret</string>
-  <string name="AndroidManifest__public_identity_key">Offentlig Identitets Nøgle</string>
+  <string name="AndroidManifest__public_identity_key">Offentlig Identitetsnøgle</string>
   <string name="AndroidManifest__change_passphrase">Skift kodeord</string>
   <string name="AndroidManifest__verify_session">Verificer session</string>
   <string name="AndroidManifest__verify_identity">Verificer identitet</string>
